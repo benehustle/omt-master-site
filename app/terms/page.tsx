@@ -9,7 +9,7 @@ export default function TermsPage() {
   return (
     <LegalLayout title="Terms of Service" updated="April 2026">
       <p>
-        These Terms apply to services provided by OutMarketThem LLC (Delaware, USA) or EHUSTLE PTY LTD (Queensland, Australia, ABN 21 679 259 440) — together referred to as <strong>&ldquo;OutMarketThem&rdquo;</strong>, <strong>&ldquo;we&rdquo;</strong>, or <strong>&ldquo;us&rdquo;</strong>. The entity that invoices you is the contracting entity for these Terms.
+        These Terms apply to services provided by OutMarketThem LLC (Delaware, USA) or EHUSTLE PTY LTD (Queensland, Australia, ABN 21 679 259 440)  -  together referred to as <strong>&ldquo;OutMarketThem&rdquo;</strong>, <strong>&ldquo;we&rdquo;</strong>, or <strong>&ldquo;us&rdquo;</strong>. The entity that invoices you is the contracting entity for these Terms.
       </p>
       <p>
         By paying a deposit, subscribing to a service, or engaging us in writing, you agree to these Terms.
@@ -17,10 +17,10 @@ export default function TermsPage() {
 
       <h2>Services offered</h2>
       <ul>
-        <li><strong>Website builds</strong> — custom website design and build for a one-time fee of US$997 (or AUD equivalent), paid as a US$100 deposit and US$897 balance.</li>
-        <li><strong>Ongoing hosting and support</strong> — optional monthly service at US$200/month, cancellable at any time.</li>
-        <li><strong>Marketing Rescue</strong> — one-time audit and rebuild services at fixed fees (US$997 for Google Ads, US$997 for Meta Ads, US$1,497 for SEO, US$2,497 for the full bundle).</li>
-        <li><strong>Advisory Membership</strong> — monthly group-call membership at US$99/month.</li>
+        <li><strong>Website builds</strong>  -  custom website design and build for a one-time fee of US$997 (or AUD equivalent), paid as a US$100 deposit and US$897 balance.</li>
+        <li><strong>Ongoing hosting and support</strong>  -  optional monthly service at US$200/month, cancellable at any time.</li>
+        <li><strong>Marketing Rescue</strong>  -  one-time audit and rebuild services at fixed fees (US$997 for Google Ads, US$997 for Meta Ads, US$1,497 for SEO, US$2,497 for the full bundle).</li>
+        <li><strong>Advisory Membership</strong>  -  monthly group-call membership at US$99/month.</li>
       </ul>
       <p>
         For Australian customers, invoices are issued in AUD by EHUSTLE PTY LTD at the prevailing AUD-equivalent price and include GST where applicable.
@@ -70,7 +70,7 @@ export default function TermsPage() {
 
       <h2>Warranties and liability</h2>
       <p>
-        We warrant that we will perform the services with reasonable skill and care. We do not warrant specific business outcomes (rankings, ad performance, leads, revenue) — too many factors are outside our control. To the maximum extent permitted by law, our total aggregate liability to you for any claim is limited to the total fees you paid us in the 12 months preceding the claim.
+        We warrant that we will perform the services with reasonable skill and care. We do not warrant specific business outcomes (rankings, ad performance, leads, revenue)  -  too many factors are outside our control. To the maximum extent permitted by law, our total aggregate liability to you for any claim is limited to the total fees you paid us in the 12 months preceding the claim.
       </p>
       <p>
         Nothing in these Terms excludes or limits any consumer rights you have that cannot be excluded under applicable law, including the Australian Consumer Law for Australian customers and US state consumer protection statutes for US customers.

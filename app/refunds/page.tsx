@@ -12,7 +12,7 @@ export default function RefundsPage() {
         We keep refunds simple and in plain English. This policy applies to all services provided by OutMarketThem LLC (Delaware, USA) and EHUSTLE PTY LTD (Queensland, Australia, ABN 21 679 259 440).
       </p>
 
-      <h2>Website builds — the short version</h2>
+      <h2>Website builds  -  the short version</h2>
       <ul>
         <li><strong>$100 deposit:</strong> fully refundable until you approve the design.</li>
         <li><strong>$897 balance:</strong> not refundable once you approve the design and the site goes live.</li>
@@ -38,7 +38,7 @@ export default function RefundsPage() {
         Once you have approved the design in writing (email counts) and we&apos;ve launched the site on your domain, the US$897 balance payment is non-refundable. At that point the work is done and the deliverable is yours.
       </p>
       <p>
-        If something is factually wrong on the finished site — a typo, a broken link, a detail we got wrong — that&apos;s a fix, not a refund situation. We fix it fast and free.
+        If something is factually wrong on the finished site  -  a typo, a broken link, a detail we got wrong  -  that&apos;s a fix, not a refund situation. We fix it fast and free.
       </p>
 
       <h2>Ongoing hosting & support ($200/month)</h2>
@@ -60,7 +60,7 @@ export default function RefundsPage() {
         <li>You cancel before the audit call takes place.</li>
       </ul>
       <p>
-        Once the rebuild work begins, the engagement cannot be refunded pro-rata — the work is done inside your accounts and can&apos;t be &ldquo;un-done.&rdquo;
+        Once the rebuild work begins, the engagement cannot be refunded pro-rata  -  the work is done inside your accounts and can&apos;t be &ldquo;un-done.&rdquo;
       </p>
 
       <h2>Chargebacks</h2>

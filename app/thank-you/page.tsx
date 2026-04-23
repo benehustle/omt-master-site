@@ -2,7 +2,7 @@ import Link from "next/link";
 import { CheckCircle2 } from "lucide-react";
 
 export const metadata = {
-  title: "Thank you — deposit received",
+  title: "Thank you  -  deposit received",
   description: "Deposit received. Check your email for next steps.",
   robots: { index: false, follow: false },
 };

@@ -72,12 +72,12 @@ const testimonials = [
 ];
 
 const work = [
-  { caption: "Bin Cleaning Co — Texas", tone: "warm" as const },
-  { caption: "Plumbing Pro — Queensland", tone: "teal" as const },
-  { caption: "Roofing Solutions — Sydney", tone: "amber" as const },
-  { caption: "Landscape Design — Florida", tone: "sage" as const },
-  { caption: "Electrical Services — Melbourne", tone: "warm" as const },
-  { caption: "Pressure Washing Pros — California", tone: "teal" as const },
+  { caption: "Bin Cleaning Co  -  Texas", tone: "warm" as const },
+  { caption: "Plumbing Pro  -  Queensland", tone: "teal" as const },
+  { caption: "Roofing Solutions  -  Sydney", tone: "amber" as const },
+  { caption: "Landscape Design  -  Florida", tone: "sage" as const },
+  { caption: "Electrical Services  -  Melbourne", tone: "warm" as const },
+  { caption: "Pressure Washing Pros  -  California", tone: "teal" as const },
 ];
 
 const faqs = [
@@ -99,7 +99,7 @@ const faqs = [
   },
   {
     q: "Do you serve my country/state?",
-    a: "Yes. I'm registered in Delaware (USA) and Queensland (Australia). I've built for trades across both countries. Time zones aren't a problem — I work hours that cover both.",
+    a: "Yes. I'm registered in Delaware (USA) and Queensland (Australia). I've built for trades across both countries. Time zones aren't a problem  -  I work hours that cover both.",
   },
   {
     q: "How is this different from Wix or an agency?",
@@ -162,7 +162,7 @@ export default function HomePage() {
             <div className="relative">
               <PlaceholderImage
                 label="Recent build"
-                caption="Plumbing Pro — Queensland"
+                caption="Plumbing Pro  -  Queensland"
                 tone="warm"
                 aspect="4 / 3"
                 className="shadow-soft-lg"
@@ -218,7 +218,7 @@ export default function HomePage() {
             <h2 className="mt-3">Hi, I&apos;m Ben.</h2>
             <div className="mt-6 space-y-5 text-lg leading-relaxed text-muted max-w-prose">
               <p>
-                I started OutMarketThem to solve a specific problem — trades businesses with great reputations and terrible websites.
+                I started OutMarketThem to solve a specific problem  -  trades businesses with great reputations and terrible websites.
               </p>
               <p>
                 After two years building for Australian trades, I expanded to the US in 2026. Same offer, same process, same commitment. No agency layers. No account managers. You deal with me directly.

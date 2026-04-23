@@ -5,7 +5,7 @@ import SectionHeader from "@/components/SectionHeader";
 import FAQ from "@/components/FAQ";
 
 export const metadata = {
-  title: "Contact — Ask a question or start a project",
+  title: "Contact  -  Ask a question or start a project",
   description:
     "Email Ben directly at ben@outmarketthem.com, or start a project with a $100 refundable deposit. Response within 4 business hours.",
 };
@@ -21,11 +21,11 @@ const faqs = [
   },
   {
     q: "Do you do phone calls?",
-    a: "Yes, but I prefer email for the first exchange so I have a record of what you need. Once the project starts, we'll set up calls as needed — usually one at the start, one to walk the preview, one to launch.",
+    a: "Yes, but I prefer email for the first exchange so I have a record of what you need. Once the project starts, we'll set up calls as needed  -  usually one at the start, one to walk the preview, one to launch.",
   },
   {
     q: "What time zone are you in?",
-    a: "Queensland, Australia (AEST) — but I work a split schedule covering US afternoons and Australian mornings. Either way, you'll get a reply inside normal business hours for your time zone.",
+    a: "Queensland, Australia (AEST)  -  but I work a split schedule covering US afternoons and Australian mornings. Either way, you'll get a reply inside normal business hours for your time zone.",
   },
 ];
 

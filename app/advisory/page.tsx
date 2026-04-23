@@ -6,7 +6,7 @@ import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
 
 export const metadata = {
-  title: "Weekly Advisory — $99/month group calls for trades businesses",
+  title: "Weekly Advisory  -  $99/month group calls for trades businesses",
   description:
     "Three weekly group calls for trades businesses. Google Ads, Meta Ads, and SEO strategy. $99/month. Cancel anytime.",
 };
@@ -58,11 +58,11 @@ const faqs = [
   },
   {
     q: "Can I pause membership?",
-    a: "You can cancel any time and rejoin later. No pause feature — it's simpler to just cancel and restart. Whatever month you're paying for stays active until it ends.",
+    a: "You can cancel any time and rejoin later. No pause feature  -  it's simpler to just cancel and restart. Whatever month you're paying for stays active until it ends.",
   },
   {
     q: "Do I need to have ads running already?",
-    a: "No. A lot of members join before they spend a dollar on ads so they don't waste money learning on the job. If you're already running ads, you'll get more value faster — but it's not required.",
+    a: "No. A lot of members join before they spend a dollar on ads so they don't waste money learning on the job. If you're already running ads, you'll get more value faster  -  but it's not required.",
   },
 ];
 
@@ -149,7 +149,7 @@ export default function AdvisoryPage() {
               {
                 icon: Users,
                 t: "Small group (max 20 attendees)",
-                d: "Capped so Q&A stays useful. If you show up live, you'll get your questions answered — not competing with a room of 200 people.",
+                d: "Capped so Q&A stays useful. If you show up live, you'll get your questions answered  -  not competing with a room of 200 people.",
               },
               {
                 icon: MessageCircle,
@@ -159,7 +159,7 @@ export default function AdvisoryPage() {
               {
                 icon: MessageCircle,
                 t: "Members-only Slack channel",
-                d: "Between calls, post questions in Slack. I check it daily. Other members answer too — most of them have been running ads longer than you have.",
+                d: "Between calls, post questions in Slack. I check it daily. Other members answer too  -  most of them have been running ads longer than you have.",
               },
             ].map((f) => {
               const Icon = f.icon;

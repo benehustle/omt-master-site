@@ -23,7 +23,7 @@ const siteUrl = "https://outmarketthem.com";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "OutMarketThem — Custom websites for trades businesses. $997. 14 days.",
+    default: "OutMarketThem  -  Custom websites for trades businesses. $997. 14 days.",
     template: "%s | OutMarketThem",
   },
   description:
@@ -42,14 +42,14 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: siteUrl,
     siteName: "OutMarketThem",
-    title: "OutMarketThem — Custom websites for trades businesses.",
+    title: "OutMarketThem  -  Custom websites for trades businesses.",
     description:
       "$997. Built in 14 days. Refundable deposit. No contracts. Trades web design in the US and Australia.",
     images: [{ url: "/og-default.svg", width: 1200, height: 630, alt: "OutMarketThem" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "OutMarketThem — Custom websites for trades businesses.",
+    title: "OutMarketThem  -  Custom websites for trades businesses.",
     description: "$997. Built in 14 days. No contracts. Trades web design in the US and Australia.",
   },
   icons: {

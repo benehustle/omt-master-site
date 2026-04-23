@@ -7,7 +7,7 @@ import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
 
 export const metadata = {
-  title: "Websites for trades — $997, built in 14 days",
+  title: "Websites for trades  -  $997, built in 14 days",
   description:
     "Custom websites for trades businesses. $997 one-time, $100 refundable deposit, $897 on approval. Launched in 14 days. No contracts, no retainers.",
 };
@@ -29,7 +29,7 @@ const steps = [
   {
     n: 1,
     t: "Pay $100 deposit",
-    d: "A $100 deposit locks in your build slot on my calendar. It's fully refundable if you don't love the first design. That's not marketing talk — it's the deal.",
+    d: "A $100 deposit locks in your build slot on my calendar. It's fully refundable if you don't love the first design. That's not marketing talk  -  it's the deal.",
   },
   {
     n: 2,
@@ -39,12 +39,12 @@ const steps = [
   {
     n: 3,
     t: "I build your custom site",
-    d: "Five to seven days of actual build time. I design around your trade — a plumber's site looks different from a landscaper's. I don't reuse templates. I write the first draft of copy so you're not staring at a blank page.",
+    d: "Five to seven days of actual build time. I design around your trade  -  a plumber's site looks different from a landscaper's. I don't reuse templates. I write the first draft of copy so you're not staring at a blank page.",
   },
   {
     n: 4,
     t: "You review and approve",
-    d: "You get a live preview link. Walk through it on your phone. Give me feedback in whatever form is easiest — voice notes, scribbled screenshots, a phone call. One round of revisions is included. Most builds don't need more.",
+    d: "You get a live preview link. Walk through it on your phone. Give me feedback in whatever form is easiest  -  voice notes, scribbled screenshots, a phone call. One round of revisions is included. Most builds don't need more.",
   },
   {
     n: 5,
@@ -96,7 +96,7 @@ const compare = [
 const faqs = [
   {
     q: "What platform is it built on?",
-    a: "Next.js with a static export by default. If you have a reason to use WordPress, I'll build on WordPress. Either way, no proprietary platform lock-in — you own the code and can move whenever you want.",
+    a: "Next.js with a static export by default. If you have a reason to use WordPress, I'll build on WordPress. Either way, no proprietary platform lock-in  -  you own the code and can move whenever you want.",
   },
   {
     q: "Do I own the site?",
@@ -108,7 +108,7 @@ const faqs = [
   },
   {
     q: "Can I move the site to another host later?",
-    a: "Yes. That's the whole point of not using Wix or Squarespace — nothing is tied to me. Hand the codebase and domain to any developer and they can pick it up.",
+    a: "Yes. That's the whole point of not using Wix or Squarespace  -  nothing is tied to me. Hand the codebase and domain to any developer and they can pick it up.",
   },
   {
     q: "What about hosting costs if I don't do the $200/mo?",
@@ -116,11 +116,11 @@ const faqs = [
   },
   {
     q: "Do you include SEO?",
-    a: "Basic local SEO is included — meta titles and descriptions on every page, schema markup for your business, local keyword research, Google Business Profile setup, and an XML sitemap. For ongoing SEO work, that's a separate conversation (see Rescue or Advisory).",
+    a: "Basic local SEO is included  -  meta titles and descriptions on every page, schema markup for your business, local keyword research, Google Business Profile setup, and an XML sitemap. For ongoing SEO work, that's a separate conversation (see Rescue or Advisory).",
   },
   {
     q: "What about e-commerce?",
-    a: "Most trades don't need e-commerce — you need leads. If you do need a booking or payment flow, I'll integrate Stripe or a booking tool. Full storefronts are out of scope at the $997 price.",
+    a: "Most trades don't need e-commerce  -  you need leads. If you do need a booking or payment flow, I'll integrate Stripe or a booking tool. Full storefronts are out of scope at the $997 price.",
   },
   {
     q: "Can you migrate my existing site?",
@@ -132,7 +132,7 @@ const faqs = [
   },
   {
     q: "What if I need more than 6 pages?",
-    a: "Six covers most trades — home, services overview, individual services, about, contact. If you genuinely need more (say, 10 service pages for a full plumbing business), it's $50 per additional page.",
+    a: "Six covers most trades  -  home, services overview, individual services, about, contact. If you genuinely need more (say, 10 service pages for a full plumbing business), it's $50 per additional page.",
   },
   {
     q: "Do you write the copy?",
@@ -140,19 +140,19 @@ const faqs = [
   },
   {
     q: "What about photos?",
-    a: "Your own photos always win. Phone photos of real jobs beat any stock shot. If you don't have enough, I'll use a small number of carefully chosen stock images — but we'll aim to replace them over the first few months as you build a photo library.",
+    a: "Your own photos always win. Phone photos of real jobs beat any stock shot. If you don't have enough, I'll use a small number of carefully chosen stock images  -  but we'll aim to replace them over the first few months as you build a photo library.",
   },
 ];
 
 const work = [
-  { caption: "Bin Cleaning Co — Austin, Texas", tone: "warm" as const },
-  { caption: "Plumbing Pro — Brisbane, Queensland", tone: "teal" as const },
-  { caption: "Roofing Solutions — Sydney, NSW", tone: "amber" as const },
-  { caption: "Landscape Design — Miami, Florida", tone: "sage" as const },
-  { caption: "Electrical Services — Melbourne, VIC", tone: "warm" as const },
-  { caption: "Pressure Washing Pros — San Diego, CA", tone: "teal" as const },
-  { caption: "Gutter Guys — Phoenix, Arizona", tone: "amber" as const },
-  { caption: "Fence & Deck Co — Perth, WA", tone: "sage" as const },
+  { caption: "Bin Cleaning Co  -  Austin, Texas", tone: "warm" as const },
+  { caption: "Plumbing Pro  -  Brisbane, Queensland", tone: "teal" as const },
+  { caption: "Roofing Solutions  -  Sydney, NSW", tone: "amber" as const },
+  { caption: "Landscape Design  -  Miami, Florida", tone: "sage" as const },
+  { caption: "Electrical Services  -  Melbourne, VIC", tone: "warm" as const },
+  { caption: "Pressure Washing Pros  -  San Diego, CA", tone: "teal" as const },
+  { caption: "Gutter Guys  -  Phoenix, Arizona", tone: "amber" as const },
+  { caption: "Fence & Deck Co  -  Perth, WA", tone: "sage" as const },
 ];
 
 export default function WebsitesPage() {
@@ -283,7 +283,7 @@ export default function WebsitesPage() {
               Most trades don&apos;t need this. Some want it. The monthly covers hosting, unlimited updates, and a monthly SEO check-in. Cancel any time, no contract.
             </p>
             <p className="mt-4 text-lg text-muted max-w-prose">
-              Skip the monthly and host it yourself — your choice. I&apos;ll hand over a hosting account in your name either way.
+              Skip the monthly and host it yourself  -  your choice. I&apos;ll hand over a hosting account in your name either way.
             </p>
           </div>
           <div className="card p-7">
@@ -332,7 +332,7 @@ export default function WebsitesPage() {
           <SectionHeader
             eyebrow="How it compares"
             title="The three ways trades get a website."
-            subtitle="I'm the middle option — agency-quality work, DIY-level price."
+            subtitle="I'm the middle option  -  agency-quality work, DIY-level price."
           />
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             {compare.map((c) => (

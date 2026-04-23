@@ -1,12 +1,12 @@
 # OutMarketThem
 
-Marketing website for OutMarketThem — web design and marketing rescue for trades businesses in the US and Australia.
+Marketing website for OutMarketThem  -  web design and marketing rescue for trades businesses in the US and Australia.
 
 **Live domain:** outmarketthem.com
 
 **Entities:**
-- OutMarketThem LLC — Delaware, USA
-- EHUSTLE PTY LTD — Queensland, Australia — ABN 21 679 259 440
+- OutMarketThem LLC  -  Delaware, USA
+- EHUSTLE PTY LTD  -  Queensland, Australia  -  ABN 21 679 259 440
 
 ---
 
@@ -42,8 +42,8 @@ npm run start
 
 | Route          | Purpose                                         |
 | -------------- | ----------------------------------------------- |
-| `/`            | Home — hero, services overview, testimonials    |
-| `/websites`    | $997 website build — pricing, process, FAQ      |
+| `/`            | Home  -  hero, services overview, testimonials    |
+| `/websites`    | $997 website build  -  pricing, process, FAQ      |
 | `/rescue`      | Google Ads / Meta Ads / SEO rescues + bundle    |
 | `/advisory`    | $99/mo weekly group calls                       |
 | `/about`       | Founder story, values, AU + US entities         |
@@ -81,10 +81,10 @@ Defined in `tailwind.config.ts`:
 
 Everything ships as placeholder art so the site is production-visual immediately. Drop real assets into `/public/images/` and update `PlaceholderImage` usages to `next/image`:
 
-- `public/images/ben-portrait.jpg` — founder photo (home, about)
-- `public/images/work/*.jpg` — real site screenshots (home, work, websites)
-- `public/og-default.png` — replace `.svg` with `1200x630` PNG for full OG support
-- `public/apple-touch-icon.png` — replace `.svg` with `180x180` PNG (iOS doesn't rasterise SVG touch icons in all versions)
+- `public/images/ben-portrait.jpg`  -  founder photo (home, about)
+- `public/images/work/*.jpg`  -  real site screenshots (home, work, websites)
+- `public/og-default.png`  -  replace `.svg` with `1200x630` PNG for full OG support
+- `public/apple-touch-icon.png`  -  replace `.svg` with `180x180` PNG (iOS doesn't rasterise SVG touch icons in all versions)
 
 The `PlaceholderImage` component is in `components/PlaceholderImage.tsx`. Search for its usages to find each replacement point.
 
@@ -129,6 +129,6 @@ No environment variables are required for the default build.
 - Short sentences, active voice
 - No corporate jargon ("synergies", "leverage", "solutions")
 - No AI tells (em dashes used sparingly, no "it's not just X, it's Y" constructions)
-- First person ("I") where appropriate — this is one person, not a team
+- First person ("I") where appropriate  -  this is one person, not a team
 - Specific numbers, not vague claims
 - Treats the reader as intelligent

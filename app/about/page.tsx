@@ -5,7 +5,7 @@ import PlaceholderImage from "@/components/PlaceholderImage";
 import FinalCTA from "@/components/FinalCTA";
 
 export const metadata = {
-  title: "About OutMarketThem — One operator, two countries, 50+ websites",
+  title: "About OutMarketThem  -  One operator, two countries, 50+ websites",
   description:
     "The story of OutMarketThem. Founded by Ben Wake in Queensland, Australia in 2024. Expanded to US operations in 2026. Honest marketing for trades businesses.",
 };
@@ -14,7 +14,7 @@ const values = [
   {
     icon: ShieldCheck,
     title: "Honest diagnosis first",
-    body: "We show you the problem before we sell you the solution. If nothing is broken, we tell you — even when there's money in pretending otherwise.",
+    body: "We show you the problem before we sell you the solution. If nothing is broken, we tell you  -  even when there's money in pretending otherwise.",
   },
   {
     icon: Scale,
@@ -48,7 +48,7 @@ export default function AboutPage() {
           <div className="lg:sticky lg:top-24">
             <PlaceholderImage
               label="Ben Wake"
-              caption="Founder — Queensland, Australia"
+              caption="Founder  -  Queensland, Australia"
               tone="amber"
               aspect="4 / 5"
             />
@@ -61,7 +61,7 @@ export default function AboutPage() {
 
           <div className="space-y-6 text-lg leading-relaxed text-muted max-w-prose">
             <p>
-              OutMarketThem started because I watched trades businesses with good reputations — guys who showed up on time, did quality work, treated customers well — lose out to competitors whose only advantage was a better website and a functional Google Ads account.
+              OutMarketThem started because I watched trades businesses with good reputations  -  guys who showed up on time, did quality work, treated customers well  -  lose out to competitors whose only advantage was a better website and a functional Google Ads account.
             </p>
             <p>
               I started the first version of this in Queensland in 2024. One plumber, one electrician, a bin cleaner, a landscaper. Word-of-mouth referrals kept the builds coming. By the end of the first year I&apos;d shipped 20 sites and heard the same story from every single client: &ldquo;The last agency took four months and $8,000 and gave us something we can&apos;t even update ourselves.&rdquo;
@@ -73,7 +73,7 @@ export default function AboutPage() {
               Year two was about finding out whether the model holds at scale. It does. I shipped another 30+ sites across Australia, added the Rescue services for ad accounts, and kept working as one person because adding employees breaks the price.
             </p>
             <p>
-              In 2026 I opened US operations. Same model, same price, same promise. Delaware LLC for the US, the existing Australian entity for AU work. Time zones actually help — I work a split schedule that covers most of the business hours in both markets.
+              In 2026 I opened US operations. Same model, same price, same promise. Delaware LLC for the US, the existing Australian entity for AU work. Time zones actually help  -  I work a split schedule that covers most of the business hours in both markets.
             </p>
             <p className="font-medium text-ink">
               Two years. 50+ sites. One person. That&apos;s the entire pitch.
@@ -98,12 +98,12 @@ export default function AboutPage() {
               aspect="4 / 5"
             />
             <div className="space-y-5 text-lg leading-relaxed text-muted max-w-prose">
-              <h3 className="text-ink">Ben Wake — Founder & Builder</h3>
+              <h3 className="text-ink">Ben Wake  -  Founder & Builder</h3>
               <p>
                 I grew up around small businesses in regional Australia. Trade people were my family, my neighbours, the guys who fixed things when they broke. They were also the people most often ripped off by &ldquo;digital marketers&rdquo; who sold fancy decks and delivered nothing.
               </p>
               <p>
-                Before OutMarketThem I spent seven years in software product and growth — shipping, testing, measuring, fixing. The same instincts carry over: find what&apos;s broken, fix the root cause, measure what changed, move on. No mystique, no jargon, no ceremony.
+                Before OutMarketThem I spent seven years in software product and growth  -  shipping, testing, measuring, fixing. The same instincts carry over: find what&apos;s broken, fix the root cause, measure what changed, move on. No mystique, no jargon, no ceremony.
               </p>
               <p className="font-medium text-ink">
                 No team, no hierarchy, no account managers. Just me.
@@ -148,7 +148,7 @@ export default function AboutPage() {
                 The Australian business was built first, in Queensland, starting 2024. It still runs under EHUSTLE PTY LTD (ABN 21 679 259 440). In 2026 I opened US operations under OutMarketThem LLC, registered in Delaware.
               </p>
               <p>
-                Same founder, same process, same price. The only difference is which entity invoices you — Australian clients are invoiced in AUD by the Australian entity, US clients in USD by the US entity. That keeps tax and consumer law clean on both sides.
+                Same founder, same process, same price. The only difference is which entity invoices you  -  Australian clients are invoiced in AUD by the Australian entity, US clients in USD by the US entity. That keeps tax and consumer law clean on both sides.
               </p>
               <p>
                 Time zones are actually the easy part. I work a split schedule: US afternoons and Australian mornings. Whichever country you&apos;re in, you&apos;ll get a reply inside normal business hours.
@@ -174,7 +174,7 @@ export default function AboutPage() {
 
       <FinalCTA
         heading="Want to work together?"
-        subhead="Start with a $100 deposit. Or ask a question first — I read every email."
+        subhead="Start with a $100 deposit. Or ask a question first  -  I read every email."
       />
     </>
   );

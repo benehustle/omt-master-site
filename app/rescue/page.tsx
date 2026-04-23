@@ -6,9 +6,9 @@ import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
 
 export const metadata = {
-  title: "Marketing Rescue — Google Ads, Meta Ads, SEO audits and rebuilds",
+  title: "Marketing Rescue  -  Google Ads, Meta Ads, SEO audits and rebuilds",
   description:
-    "Google Ads Rescue $997. Meta Ads Rescue $997. SEO Rescue $1,497. Full Bundle $2,497. Audit and rebuild of your broken marketing — fixed price, fast turnaround.",
+    "Google Ads Rescue $997. Meta Ads Rescue $997. SEO Rescue $1,497. Full Bundle $2,497. Audit and rebuild of your broken marketing  -  fixed price, fast turnaround.",
 };
 
 const rescues = [
@@ -75,7 +75,7 @@ const faqs = [
   },
   {
     q: "What if you can't fix my ads?",
-    a: "If the 20-minute audit shows there's nothing meaningful to improve — which happens maybe once in twenty — I tell you that in the audit call, don't charge you, and send you on your way. Honesty is cheaper than pretending.",
+    a: "If the 20-minute audit shows there's nothing meaningful to improve  -  which happens maybe once in twenty  -  I tell you that in the audit call, don't charge you, and send you on your way. Honesty is cheaper than pretending.",
   },
   {
     q: "Does the $997 include the rebuild?",
@@ -87,7 +87,7 @@ const faqs = [
   },
   {
     q: "Do I keep my ad accounts?",
-    a: "Always. I work inside your Google Ads, Meta Business Manager, Google Search Console, and analytics tools. Nothing is ever in my name. If we part ways, there's nothing to transfer — it's already yours.",
+    a: "Always. I work inside your Google Ads, Meta Business Manager, Google Search Console, and analytics tools. Nothing is ever in my name. If we part ways, there's nothing to transfer  -  it's already yours.",
   },
   {
     q: "Can I cancel after the rescue?",
@@ -95,7 +95,7 @@ const faqs = [
   },
   {
     q: "What's the $200/mo for if I already did the rescue?",
-    a: "The $200/mo is only for website hosting and ongoing site updates — it's tied to the Websites service, not the Rescue. The rescue stands on its own and doesn't require anything monthly.",
+    a: "The $200/mo is only for website hosting and ongoing site updates  -  it's tied to the Websites service, not the Rescue. The rescue stands on its own and doesn't require anything monthly.",
   },
 ];
 
@@ -124,7 +124,7 @@ export default function RescuePage() {
       <PageHero
         eyebrow="Rescue"
         title="Your marketing is broken. I can prove it and fix it."
-        subtitle="Google Ads, Meta Ads, SEO — audited and rebuilt. From $997."
+        subtitle="Google Ads, Meta Ads, SEO  -  audited and rebuilt. From $997."
         primaryHref="#services"
         primaryLabel="See Rescue Options"
         secondaryHref="/contact"
@@ -180,7 +180,7 @@ export default function RescuePage() {
                         <span className="text-sm text-muted">{r.badge}</span>
                       </div>
                       <Link href={r.href} className="btn-primary mt-6 w-full justify-center md:w-auto">
-                        Start — $100 Deposit
+                        Start  -  $100 Deposit
                       </Link>
                     </div>
                     <div className="space-y-6">
@@ -228,9 +228,9 @@ export default function RescuePage() {
                     Save $994
                   </span>
                 </div>
-                <h3 className="mt-3 text-2xl md:text-3xl">Full Rescue Bundle — $2,497</h3>
+                <h3 className="mt-3 text-2xl md:text-3xl">Full Rescue Bundle  -  $2,497</h3>
                 <p className="mt-2 text-muted">
-                  All three rescues. Google Ads, Meta Ads, and SEO — audited and rebuilt together, because they all need to work as one system. Total value $3,491. You save $994.
+                  All three rescues. Google Ads, Meta Ads, and SEO  -  audited and rebuilt together, because they all need to work as one system. Total value $3,491. You save $994.
                 </p>
               </div>
               <Link href="/contact#start-bundle" className="btn-primary whitespace-nowrap">
@@ -244,14 +244,14 @@ export default function RescuePage() {
       {/* CASE STUDY */}
       <section className="section">
         <div className="container-page">
-          <SectionHeader eyebrow="Case study" title="Inspect Buy Drive — Sydney." />
+          <SectionHeader eyebrow="Case study" title="Inspect Buy Drive  -  Sydney." />
           <div className="mt-10 grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
             <div className="space-y-5 text-lg leading-relaxed text-muted max-w-prose">
               <p>
-                Inspect Buy Drive is an independent pre-purchase vehicle inspection service in Sydney. They&apos;d been running Google Ads through a local agency for 14 months with steady but unspectacular results — and a $6,000/mo ad budget.
+                Inspect Buy Drive is an independent pre-purchase vehicle inspection service in Sydney. They&apos;d been running Google Ads through a local agency for 14 months with steady but unspectacular results  -  and a $6,000/mo ad budget.
               </p>
               <p>
-                The 20-minute audit surfaced $4,000/mo in wasted spend: broad-match bidding on terms like &ldquo;car inspection&rdquo; nationally when their service area was Sydney metro only, no negative keyword list, and conversion tracking that was counting page views as conversions — which meant the whole bidding algorithm had been optimising towards the wrong signal for over a year.
+                The 20-minute audit surfaced $4,000/mo in wasted spend: broad-match bidding on terms like &ldquo;car inspection&rdquo; nationally when their service area was Sydney metro only, no negative keyword list, and conversion tracking that was counting page views as conversions  -  which meant the whole bidding algorithm had been optimising towards the wrong signal for over a year.
               </p>
               <p className="font-medium text-ink">
                 After the rebuild, the account ran the same campaigns with a $2,000/mo budget and delivered more enquiries than the previous $6,000/mo setup. The $4,000/mo saving paid for the rescue in week one.

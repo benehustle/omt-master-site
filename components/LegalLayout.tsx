@@ -30,7 +30,7 @@ export default function LegalLayout({
           </article>
           <div className="mt-16 border-t border-border pt-6 text-xs text-muted">
             <p>
-              OutMarketThem LLC — Delaware, USA &nbsp;|&nbsp; EHUSTLE PTY LTD — Queensland, Australia, ABN 21 679 259 440
+              OutMarketThem LLC  -  Delaware, USA &nbsp;|&nbsp; EHUSTLE PTY LTD  -  Queensland, Australia, ABN 21 679 259 440
             </p>
             <p className="mt-2">
               Questions about this policy? Email{" "}
