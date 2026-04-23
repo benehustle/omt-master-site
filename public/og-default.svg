@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FAF6F0"/>
+      <stop offset="100%" stop-color="#F4D47C" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g transform="translate(80,100)">
+    <rect width="96" height="96" rx="20" fill="#E07856"/>
+    <text x="48" y="62" text-anchor="middle" font-family="Georgia, serif" font-weight="600" font-size="32" fill="#FAF6F0">OMT</text>
+  </g>
+  <text x="80" y="320" font-family="Georgia, serif" font-weight="600" font-size="78" fill="#2A2520">Custom websites</text>
+  <text x="80" y="400" font-family="Georgia, serif" font-weight="600" font-size="78" fill="#2A2520">for trades businesses.</text>
+  <text x="80" y="480" font-family="Inter, Arial, sans-serif" font-size="34" fill="#5A5249">$997. Built in 14 days. No contracts.</text>
+  <text x="80" y="560" font-family="Inter, Arial, sans-serif" font-weight="500" font-size="24" fill="#2D5F5D" letter-spacing="2">OUTMARKETTHEM · USA &amp; AUSTRALIA</text>
+</svg>
