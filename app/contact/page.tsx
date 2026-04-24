@@ -227,7 +227,7 @@ function InfoCard({
   title,
   body,
 }: {
-  icon: React.ComponentType<{ size?: number }>;
+  icon: React.ComponentType<{ size?: number | string; className?: string }>;
   title: string;
   body: React.ReactNode;
 }) {
