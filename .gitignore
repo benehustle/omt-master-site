@@ -38,3 +38,8 @@ pnpm-debug.log*
 
 # Netlify
 .netlify
+
+# OpenNext / Cloudflare
+.open-next/
+.wrangler/
+.dev.vars
