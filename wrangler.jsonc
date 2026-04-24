@@ -1,4 +1,4 @@
-// Cloudflare CI: set the build command to "npm run build:cf" (or "npx opennextjs-cloudflare build"), not "npm run build", so OpenNext can bundle before wrangler deploy.
+// CI: `npm run build` runs OpenNext (worker + assets). Inner Next compile uses `build:next` via open-next.config.ts.
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "omt-master-site",
