@@ -1,3 +1,4 @@
+// Cloudflare CI: set the build command to "npm run build:cf" (or "npx opennextjs-cloudflare build"), not "npm run build", so OpenNext can bundle before wrangler deploy.
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "omt-master-site",
