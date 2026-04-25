@@ -2,7 +2,8 @@ import Link from "next/link";
 import { Check, ArrowRight } from "lucide-react";
 import PageHero from "@/components/PageHero";
 import SectionHeader from "@/components/SectionHeader";
-import PlaceholderImage from "@/components/PlaceholderImage";
+import ProjectCard from "@/components/ProjectCard";
+import { portfolioProjects } from "@/data/portfolio";
 import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
 
@@ -144,17 +145,6 @@ const faqs = [
   },
 ];
 
-const work = [
-  { caption: "Bin Cleaning Co  -  Austin, Texas", tone: "warm" as const },
-  { caption: "Plumbing Pro  -  Brisbane, Queensland", tone: "teal" as const },
-  { caption: "Roofing Solutions  -  Sydney, NSW", tone: "amber" as const },
-  { caption: "Landscape Design  -  Miami, Florida", tone: "sage" as const },
-  { caption: "Electrical Services  -  Melbourne, VIC", tone: "warm" as const },
-  { caption: "Pressure Washing Pros  -  San Diego, CA", tone: "teal" as const },
-  { caption: "Gutter Guys  -  Phoenix, Arizona", tone: "amber" as const },
-  { caption: "Fence & Deck Co  -  Perth, WA", tone: "sage" as const },
-];
-
 export default function WebsitesPage() {
   const serviceSchema = {
     "@context": "https://schema.org",
@@ -185,6 +175,11 @@ export default function WebsitesPage() {
         primaryLabel="Start with $100 Deposit"
         secondaryHref="#pricing"
         secondaryLabel="See what's included"
+        trustItems={[
+          "OutMarketThem LLC (Delaware) for US clients · USD invoicing",
+          "$100 refundable deposit · 14-day delivery promise",
+          "Secure Stripe checkout when enabled on Contact",
+        ]}
       />
 
       {/* WHAT'S INCLUDED */}
@@ -314,8 +309,8 @@ export default function WebsitesPage() {
         <div className="container-page">
           <SectionHeader eyebrow="Recent work" title="Eight recent builds." />
           <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            {work.map((w) => (
-              <PlaceholderImage key={w.caption} caption={w.caption} tone={w.tone} aspect="4 / 5" />
+            {portfolioProjects.slice(0, 8).map((p) => (
+              <ProjectCard key={p.slug} project={p} aspect="4 / 5" />
             ))}
           </div>
           <div className="mt-8">

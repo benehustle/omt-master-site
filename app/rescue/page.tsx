@@ -18,7 +18,7 @@ const rescues = [
     price: "$997",
     badge: "7-day rebuild",
     wrong:
-      "Wasted spend on broad-match garbage keywords. Bidding strategies that optimise for the wrong goal. No negative keyword lists. Conversion tracking that doesn't actually track conversions. Campaigns that haven't been touched in a year.",
+      "Wasted spend on broad-match garbage keywords. Bidding strategies that optimize for the wrong goal. No negative keyword lists. Conversion tracking that doesn't actually track conversions. Campaigns that haven't been touched in a year.",
     what: [
       "20-minute live audit (I screen-share and show you exactly what's broken)",
       "Full rebuild of campaigns, ad groups, and ad copy",
@@ -54,7 +54,7 @@ const rescues = [
     price: "$1,497",
     badge: "14-day delivery",
     wrong:
-      "Thin service pages that rank nowhere. Missing schema. Slow mobile load. No Google Business Profile optimisation. Content written for Google, not people. Technical issues hiding pages from being indexed at all.",
+      "Thin service pages that rank nowhere. Missing schema. Slow mobile load. No Google Business Profile optimization. Content written for Google, not people. Technical issues hiding pages from being indexed at all.",
     what: [
       "Full technical SEO audit (indexing, speed, mobile, schema, Core Web Vitals)",
       "On-page fixes across every existing page",
@@ -63,7 +63,7 @@ const rescues = [
       "Internal linking rebuild",
     ],
     deliverable:
-      "Everything technical fixed, every page on-page optimised, and a content plan you can execute yourself or hire out.",
+      "Everything technical fixed, every page on-page optimized, and a content plan you can execute yourself or hire out.",
     href: "/contact#start-seo",
   },
 ];
@@ -79,7 +79,7 @@ const faqs = [
   },
   {
     q: "Does the $997 include the rebuild?",
-    a: "Yes. Audit + full rebuild + 30-day check-in, all included. No upsells for 'strategy sessions' or 'optimisation packages'. One price, complete job.",
+    a: "Yes. Audit + full rebuild + 30-day check-in, all included. No upsells for 'strategy sessions' or 'optimization packages'. One price, complete job.",
   },
   {
     q: "How long does the audit take?",
@@ -127,14 +127,21 @@ export default function RescuePage() {
         subtitle="Google Ads, Meta Ads, SEO  -  audited and rebuilt. From $997."
         primaryHref="#services"
         primaryLabel="See Rescue Options"
-        secondaryHref="/contact"
+        secondaryHref="/contact#ask"
         secondaryLabel="Ask a question"
+        trustItems={[
+          "Work stays inside your ad accounts (never mine)",
+          "Fixed-price rebuilds · no retainers",
+          "US + Australia",
+        ]}
       />
 
       {/* EMPATHY / STORY */}
       <section className="section">
         <div className="container-narrow">
-          <h2>If you&apos;re here, you&apos;ve probably been burned before.</h2>
+          <h2 className="text-3xl font-medium leading-tight md:text-4xl lg:text-5xl">
+            If you&apos;re here, you&apos;ve probably been burned before.
+          </h2>
           <div className="mt-7 space-y-5 text-lg leading-relaxed text-muted">
             <p>
               Maybe an agency sold you on Google Ads and quietly lit $2,000 a month on fire while they sent you PDF reports full of impressions and clicks. Maybe you paid an SEO company for &ldquo;content&rdquo; that read like it was written by a robot, and you&apos;re still on page 4 of Google for the one search that matters.
@@ -251,10 +258,10 @@ export default function RescuePage() {
                 Inspect Buy Drive is an independent pre-purchase vehicle inspection service in Sydney. They&apos;d been running Google Ads through a local agency for 14 months with steady but unspectacular results  -  and a $6,000/mo ad budget.
               </p>
               <p>
-                The 20-minute audit surfaced $4,000/mo in wasted spend: broad-match bidding on terms like &ldquo;car inspection&rdquo; nationally when their service area was Sydney metro only, no negative keyword list, and conversion tracking that was counting page views as conversions  -  which meant the whole bidding algorithm had been optimising towards the wrong signal for over a year.
+                The 20-minute audit surfaced $4,000/mo in wasted spend: broad-match bidding on terms like &ldquo;car inspection&rdquo; nationally when their service area was Sydney metro only, no negative keyword list, and conversion tracking that was counting page views as conversions  -  which meant the whole bidding algorithm had been optimizing toward the wrong signal for over a year.
               </p>
               <p className="font-medium text-ink">
-                After the rebuild, the account ran the same campaigns with a $2,000/mo budget and delivered more enquiries than the previous $6,000/mo setup. The $4,000/mo saving paid for the rescue in week one.
+                After the rebuild, the account ran the same campaigns with a $2,000/mo budget and delivered more inquiries than the previous $6,000/mo setup. The $4,000/mo saving paid for the rescue in week one.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4">
@@ -301,6 +308,7 @@ export default function RescuePage() {
       <FinalCTA
         heading="Ready to see what's actually broken?"
         subhead="Start with a $100 deposit and a 20-minute audit call. If there's nothing to fix, you get the deposit back."
+        primaryHref="/contact#start-google"
         primaryLabel="Start a Rescue"
       />
     </>

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Check, Calendar, MessageCircle, Users, X } from "lucide-react";
+import { Check, Calendar, MessageCircle, Slack, Users, X } from "lucide-react";
 import PageHero from "@/components/PageHero";
 import SectionHeader from "@/components/SectionHeader";
 import FAQ from "@/components/FAQ";
@@ -100,6 +100,11 @@ export default function AdvisoryPage() {
         primaryLabel="Start Advisory Membership"
         secondaryHref="#calls"
         secondaryLabel="See the call schedule"
+        trustItems={[
+          "Small cohort (max 20) · recordings within 24 hours",
+          "Slack support between calls",
+          "Cancel anytime",
+        ]}
       />
 
       {/* WHAT IT IS */}
@@ -157,7 +162,7 @@ export default function AdvisoryPage() {
                 d: "Bring your account, bring your numbers, bring the problem you're stuck on. Real accounts, real screenshares, real answers in the call.",
               },
               {
-                icon: MessageCircle,
+                icon: Slack,
                 t: "Members-only Slack channel",
                 d: "Between calls, post questions in Slack. I check it daily. Other members answer too  -  most of them have been running ads longer than you have.",
               },

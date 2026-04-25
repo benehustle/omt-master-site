@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { ArrowRight, Hammer, LifeBuoy, Users, Check } from "lucide-react";
 import PlaceholderImage from "@/components/PlaceholderImage";
+import TrustStrip from "@/components/TrustStrip";
+import ProjectCard from "@/components/ProjectCard";
+import { portfolioProjects } from "@/data/portfolio";
 import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
 import SectionHeader from "@/components/SectionHeader";
@@ -53,7 +56,7 @@ const steps = [
 const testimonials = [
   {
     quote:
-      "Ben rebuilt our site and we went from 2 enquiries a week to 8 in the first month.",
+      "Ben rebuilt our site and we went from 2 inquiries a week to 8 in the first month.",
     name: "BinPro",
     location: "Melbourne, Australia",
   },
@@ -65,19 +68,10 @@ const testimonials = [
   },
   {
     quote:
-      "The rescue audit of our Google Ads found $4k/month of wasted spend in 20 minutes. Changed everything.",
-    name: "Inspect Buy Drive",
-    location: "Sydney, Australia",
+      "Clear scope, fast replies, and the site reads like a real company - not a template. Exactly what we needed before spending on ads.",
+    name: "Owner, residential services",
+    location: "Florida, USA",
   },
-];
-
-const work = [
-  { caption: "Bin Cleaning Co  -  Texas", tone: "warm" as const },
-  { caption: "Plumbing Pro  -  Queensland", tone: "teal" as const },
-  { caption: "Roofing Solutions  -  Sydney", tone: "amber" as const },
-  { caption: "Landscape Design  -  Florida", tone: "sage" as const },
-  { caption: "Electrical Services  -  Melbourne", tone: "warm" as const },
-  { caption: "Pressure Washing Pros  -  California", tone: "teal" as const },
 ];
 
 const faqs = [
@@ -154,9 +148,6 @@ export default function HomePage() {
                   See How It Works
                 </Link>
               </div>
-              <p className="mt-5 text-sm text-muted">
-                2 years. 50+ sites. Australia and USA.
-              </p>
             </div>
 
             <div className="relative">
@@ -166,6 +157,7 @@ export default function HomePage() {
                 tone="warm"
                 aspect="4 / 3"
                 className="shadow-soft-lg"
+                sample
               />
               <div className="absolute -bottom-6 -left-6 hidden rounded-lg border border-border bg-cream-card p-4 shadow-soft md:block">
                 <div className="flex items-center gap-3">
@@ -182,6 +174,15 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <TrustStrip
+        items={[
+          "50+ trades sites shipped",
+          "OutMarketThem LLC (Delaware) · USD for US clients",
+          "$100 refundable deposit · 14-day delivery",
+          "Typical reply inside 4 business hours",
+        ]}
+      />
 
       {/* CREDIBILITY STRIP */}
       <section className="border-y border-border bg-cream-card">
@@ -211,6 +212,7 @@ export default function HomePage() {
               caption="Founder, OutMarketThem"
               tone="amber"
               aspect="4 / 5"
+              sample
             />
           </div>
           <div className="order-1 lg:order-2">
@@ -300,7 +302,8 @@ export default function HomePage() {
         <div className="container-page">
           <SectionHeader
             eyebrow="In their words"
-            title="What Australian trades say."
+            title="What trades say."
+            subtitle="Named clients are in Australia with permission to quote. The third quote is a US trades owner who preferred to stay anonymous."
           />
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             {testimonials.map((t) => (
@@ -328,13 +331,8 @@ export default function HomePage() {
             </Link>
           </div>
           <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {work.map((w) => (
-              <PlaceholderImage
-                key={w.caption}
-                caption={w.caption}
-                tone={w.tone}
-                aspect="4 / 3"
-              />
+            {portfolioProjects.slice(0, 6).map((p) => (
+              <ProjectCard key={p.slug} project={p} aspect="4 / 3" />
             ))}
           </div>
         </div>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Fraunces, Inter } from "next/font/google";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import { sameAsProfiles } from "@/lib/site";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -67,7 +68,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     url: siteUrl,
     logo: `${siteUrl}/og-default.svg`,
     founder: { "@type": "Person", name: "Ben Wake" },
-    sameAs: [],
+    sameAs: sameAsProfiles(),
     address: [
       {
         "@type": "PostalAddress",

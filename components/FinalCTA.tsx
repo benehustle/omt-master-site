@@ -14,7 +14,7 @@ export default function FinalCTA({
   subhead = "14 days from deposit to live site. $100 refundable. No contracts.",
   primaryHref = "/contact#start",
   primaryLabel = "Start with $100 Deposit",
-  secondaryHref = "/contact",
+  secondaryHref = "/contact#ask",
   secondaryLabel = "Prefer to ask questions first? →",
 }: Props) {
   return (

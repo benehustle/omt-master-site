@@ -49,7 +49,7 @@ export default function Navigation() {
             </Link>
           ))}
           <Link href="/contact#start" className="btn-primary !py-2.5 !px-5 text-sm">
-            Start Now
+            Start - $100 deposit
           </Link>
         </nav>
 
@@ -82,7 +82,7 @@ export default function Navigation() {
               onClick={() => setOpen(false)}
               className="btn-primary mt-4 w-full"
             >
-              Start Now
+              Start - $100 deposit
             </Link>
           </nav>
         </div>

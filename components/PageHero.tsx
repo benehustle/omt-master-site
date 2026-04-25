@@ -9,7 +9,10 @@ type Props = {
   primaryLabel?: string;
   secondaryHref?: string;
   secondaryLabel?: string;
+  /** @deprecated use trustItems */
   trust?: string;
+  /** Short trust bullets shown under CTAs (e.g. Delaware LLC, Stripe, response time). */
+  trustItems?: string[];
   align?: "left" | "center";
 };
 
@@ -22,9 +25,12 @@ export default function PageHero({
   secondaryHref,
   secondaryLabel,
   trust,
+  trustItems,
   align = "left",
 }: Props) {
-  const alignClass = align === "center" ? "text-center items-center" : "text-left items-start";
+  const alignClass = align === "center" ? "text-center mx-auto items-center" : "text-left items-start";
+  const items = trustItems?.length ? trustItems : trust ? [trust] : [];
+
   return (
     <section className="relative overflow-hidden">
       <div
@@ -34,9 +40,11 @@ export default function PageHero({
       <div className="container-page relative pt-14 pb-10 md:pt-24 md:pb-16">
         <div className={`flex flex-col gap-6 ${alignClass}`}>
           {eyebrow && <span className="eyebrow">{eyebrow}</span>}
-          <h1 className={`max-w-4xl ${align === "center" ? "mx-auto" : ""}`}>{title}</h1>
+          <h1 className={`max-w-4xl text-balance ${align === "center" ? "mx-auto" : ""}`}>{title}</h1>
           {subtitle && (
-            <p className={`max-w-2xl text-lg md:text-xl text-muted ${align === "center" ? "mx-auto" : ""}`}>
+            <p
+              className={`max-w-2xl text-lg md:text-xl text-muted text-pretty ${align === "center" ? "mx-auto" : ""}`}
+            >
               {subtitle}
             </p>
           )}
@@ -54,7 +62,18 @@ export default function PageHero({
               )}
             </div>
           )}
-          {trust && <p className="text-sm text-muted">{trust}</p>}
+          {items.length > 0 && (
+            <ul
+              className={`mt-1 flex max-w-3xl flex-wrap gap-x-6 gap-y-2 text-sm text-muted ${align === "center" ? "mx-auto justify-center" : ""}`}
+            >
+              {items.map((t) => (
+                <li key={t} className="flex items-center gap-2">
+                  <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-teal" aria-hidden />
+                  <span>{t}</span>
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
       </div>
     </section>

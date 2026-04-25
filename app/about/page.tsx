@@ -40,7 +40,41 @@ export default function AboutPage() {
         eyebrow="About"
         title="One operator, two countries, 50+ websites."
         subtitle="The story of OutMarketThem."
+        trustItems={[
+          "OutMarketThem LLC (Delaware) invoices US clients in USD",
+          "EHUSTLE PTY LTD (Queensland) invoices Australian clients in AUD",
+          "Agreements: Terms + email scope confirmation",
+        ]}
       />
+
+      <section className="border-b border-border bg-cream-card py-10">
+        <div className="container-page grid gap-8 md:grid-cols-[1.1fr_1fr] md:items-start">
+          <div>
+            <span className="eyebrow">For US clients</span>
+            <h2 className="mt-3">How buying from OMT works in the United States</h2>
+            <p className="mt-4 max-w-prose text-muted leading-relaxed">
+              US work is contracted and invoiced by <strong className="text-ink">OutMarketThem LLC</strong>, a Delaware
+              limited liability company. You pay in USD. Deposits and balances run through Stripe when checkout links are
+              configured in production; until then, email Ben to start and you will get a written confirmation path
+              (email + Terms) like any serious vendor.
+            </p>
+          </div>
+          <ul className="card space-y-3 p-6 text-sm text-muted">
+            <li className="flex gap-2">
+              <Check className="mt-0.5 shrink-0 text-sage" size={18} />
+              <span>Direct access to the person building your site or fixing your ads (no account managers).</span>
+            </li>
+            <li className="flex gap-2">
+              <Check className="mt-0.5 shrink-0 text-sage" size={18} />
+              <span>Clear refund rules for website deposits and rescue work (see Refunds).</span>
+            </li>
+            <li className="flex gap-2">
+              <Check className="mt-0.5 shrink-0 text-sage" size={18} />
+              <span>Privacy policy includes US state privacy rights (see Privacy).</span>
+            </li>
+          </ul>
+        </div>
+      </section>
 
       {/* FOUNDER STORY */}
       <section className="section">

@@ -25,7 +25,14 @@ export default function Footer() {
           <div>
             <Logo />
             <p className="mt-4 max-w-xs text-sm text-muted">
-              Custom websites and marketing rescue for trades businesses in the US and Australia. Built by one person, on purpose.
+              Custom websites and marketing rescue for trades businesses in the US and Australia. Built by one
+              person, on purpose.
+            </p>
+            <p className="mt-4 text-xs text-muted">
+              US payments via Stripe when enabled. Questions:{" "}
+              <a href="mailto:ben@outmarketthem.com" className="link-underline">
+                ben@outmarketthem.com
+              </a>
             </p>
           </div>
 
@@ -34,11 +41,42 @@ export default function Footer() {
           <FooterCol title="Legal" links={legal} />
         </div>
 
-        <div className="mt-12 flex flex-col gap-4 border-t border-border pt-6 text-xs text-muted md:flex-row md:items-center md:justify-between">
-          <p className="leading-relaxed">
-            OutMarketThem LLC  -  Delaware, USA &nbsp;|&nbsp; EHUSTLE PTY LTD  -  Queensland, Australia ABN 21 679 259 440
-          </p>
+        <div className="mt-12 grid gap-6 border-t border-border pt-8 text-xs text-muted md:grid-cols-2">
+          <div>
+            <div className="text-[10px] font-semibold uppercase tracking-wider text-teal">United States</div>
+            <p className="mt-2 leading-relaxed">
+              <span className="font-medium text-ink">OutMarketThem LLC</span>
+              <br />
+              Delaware, USA (registered agent on file)
+              <br />
+              USD invoicing for US clients
+            </p>
+          </div>
+          <div>
+            <div className="text-[10px] font-semibold uppercase tracking-wider text-teal">Australia</div>
+            <p className="mt-2 leading-relaxed">
+              <span className="font-medium text-ink">EHUSTLE PTY LTD</span>
+              <br />
+              Queensland, Australia · ABN 21 679 259 440
+              <br />
+              AUD invoicing for Australian clients
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-6 flex flex-col gap-2 border-t border-border pt-6 text-xs text-muted md:flex-row md:items-center md:justify-between">
           <p>© {new Date().getFullYear()} OutMarketThem</p>
+          <p className="flex flex-wrap gap-x-4 gap-y-1">
+            <Link href="/privacy" className="link-underline">
+              Privacy
+            </Link>
+            <Link href="/terms" className="link-underline">
+              Terms
+            </Link>
+            <Link href="/refunds" className="link-underline">
+              Refunds
+            </Link>
+          </p>
         </div>
       </div>
     </footer>

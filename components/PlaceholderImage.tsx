@@ -4,6 +4,8 @@ type Props = {
   aspect?: string;
   tone?: "warm" | "teal" | "amber" | "sage";
   className?: string;
+  /** When true, shows a small badge so placeholders are not mistaken for live screenshots. */
+  sample?: boolean;
 };
 
 const toneMap: Record<NonNullable<Props["tone"]>, string> = {
@@ -19,6 +21,7 @@ export default function PlaceholderImage({
   aspect = "4 / 3",
   tone = "warm",
   className = "",
+  sample = false,
 }: Props) {
   return (
     <div
@@ -34,11 +37,18 @@ export default function PlaceholderImage({
             "radial-gradient(circle at 20% 30%, #fff 0, transparent 45%), radial-gradient(circle at 80% 70%, #2A2520 0, transparent 55%)",
         }}
       />
-      {label && (
-        <div className="absolute left-4 top-4 rounded bg-cream-card/90 px-2.5 py-1 text-[11px] font-medium uppercase tracking-wider text-ink">
-          {label}
-        </div>
-      )}
+      <div className="absolute left-4 top-4 flex flex-wrap items-center gap-2">
+        {label && (
+          <div className="rounded bg-cream-card/90 px-2.5 py-1 text-[11px] font-medium uppercase tracking-wider text-ink">
+            {label}
+          </div>
+        )}
+        {sample && (
+          <div className="rounded bg-ink/80 px-2.5 py-1 text-[10px] font-medium uppercase tracking-wider text-cream">
+            Layout sample
+          </div>
+        )}
+      </div>
       {caption && (
         <div className="absolute bottom-4 left-4 right-4 rounded-md bg-ink/75 px-3 py-2 text-sm text-cream">
           {caption}

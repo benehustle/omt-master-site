@@ -17,8 +17,8 @@ export default function SectionHeader({
   return (
     <div className={`flex max-w-3xl flex-col gap-3 ${alignC} ${className}`}>
       {eyebrow && <span className="eyebrow">{eyebrow}</span>}
-      <h2>{title}</h2>
-      {subtitle && <p className="text-lg text-muted">{subtitle}</p>}
+      <h2 className="text-balance">{title}</h2>
+      {subtitle && <p className="text-pretty text-lg text-muted">{subtitle}</p>}
     </div>
   );
 }
